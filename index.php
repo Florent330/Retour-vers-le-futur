@@ -2,7 +2,7 @@
 require 'TimeTravel.php';
 
 
-$start = new DateTime('1954-12-31 12:05:24');
+$start = new DateTime('1954-04-23 12:05:24');
 $end = new DateTime('2019-06-08 11:03:45');
 
 $timeTravel = new TimeTravel($start, $end);
